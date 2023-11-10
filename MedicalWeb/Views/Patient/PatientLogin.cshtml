@@ -1,0 +1,45 @@
+﻿@model PLogin;
+
+@{
+    ViewData["Title"] = "Log in to your account";
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml"; // Replace with the actual path to your layout
+}
+
+<div class="row">
+    <div class="col-md-6 offset-3">
+        <p>
+            <h4>Enter your ID number </h4>
+        </p>
+
+        @if (TempData["Error"] != null)
+        {
+            <div class="col-md-12 alert alert-danger">
+                <span><b>Sorry!</b> - @TempData["Error"] </span>
+            </div>
+        }
+
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <form asp-action="PatientLogin" asp-controller="Patient">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="Username" class="control-label"></label>
+                        <input asp-for="Username" class="form-control" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                 
+
+
+                    <div class="form-group">
+                        <input class="btn btn-outline-success float-right" type="submit" value="Log in" />
+                        <a class="btn btn-outline-secondary" asp-controller="Home"  asp-action="Index">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<PatientPrescription>
+
+@{
+    ViewData["Title"] = "List of Prescriptions";
+}
+@{
+    Layout = "~/Views/Shared/_Layout3Patient.cshtml"; // Replace with the actual path to your layout
+}
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <h1>Past Prescriptions</h1>
+        <table class="table">
+            <thead>
+                <tr class="text-center">
+                    <th></th>
+                    <th>@Html.DisplayNameFor(model => model.Description)</th>
+                    <th>@Html.DisplayNameFor(model => model.Prescription)</th>
+                    <th>@Html.DisplayNameFor(model => model.DoctorName)</th>
+                    <th>@Html.DisplayNameFor(model => model.Date)</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Prescription)
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.DoctorName)
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+
+
+                        <td class="align-middle">
+                            <a class="btn btn-outline-primary" asp-controller="Doctor" asp-action="Details" asp-route-id="@item.DoctorName"><i class="bi bi-pencil-square"></i> Doctor Details </a> |
+                           
+
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+
+
+        </table>
+       
+       
+    </div>
+</div>

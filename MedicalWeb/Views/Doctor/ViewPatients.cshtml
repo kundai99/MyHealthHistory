@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Patientrecord>
+
+@{
+    ViewData["Title"] = "List of Patient that have been seen";
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout3Doctor.cshtml"; // Replace with the actual path to your layout
+}
+
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <h4 class="center">Patient that have been seen by doctor</h4>
+        <table class="table">
+            <thead>
+                <tr class="text-center">
+                    <th>@Html.DisplayNameFor(model => model.Name)</th>
+                    <th>@Html.DisplayNameFor(model => model.Surname)</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Surname)
+                        </td>
+
+                        <td class="align-middle">
+                           
+                            <a class="btn btn-outline-info" asp-action="PMedicalVisit" asp-route-id="@item.Idnumber"><i class="bi bi-eye"></i>Patient Medical Visits </a> |
+                            <a class="btn btn-outline-info"  asp-action="PMedicalVisitOtherD" asp-route-id="@item.Idnumber"><i class="bi bi-eye"></i>Patient Medical Visits from other doctors  </a>
+
+                        </td>
+
+
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+        <div class="center">
+            <a class="btn btn-outline-info" asp-action="Index" asp-controller="Doctor"><i class="bi bi-eye"></i>Back </a>
+        </div>
+        
+    </div>
+</div>

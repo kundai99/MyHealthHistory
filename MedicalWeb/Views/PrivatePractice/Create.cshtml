@@ -1,0 +1,40 @@
+﻿@model Hospital
+
+@{
+    ViewData["Title"] = "Add a new hospital";
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout3Admin.cshtml"; // Replace with the actual path to your layout
+}
+<div class="row text">
+    <div class="col-md-8 offset-2">
+        <p>
+            <h1>Add New PrivatePractice</h1>
+        </p>
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <form asp-action="Create" asp-controller="PrivatePractice" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+                    <div class="form-group">
+                        <label asp-for="HospitalName" class="control-label"></label>
+                        <input asp-for="HospitalName" class="form-control" />
+                        <span asp-validation-for="HospitalName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Location" class="control-label"></label>
+                        <input asp-for="Location" class="form-control" />
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-outline-success float-right" />
+                        <a class="btn btn-outline-secondary" asp-action="Index">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

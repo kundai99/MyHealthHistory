@@ -1,0 +1,59 @@
+﻿@model IEnumerable<MedicalVisit>
+
+@{
+    ViewData["Title"] = "List of Medical Visits";
+}
+@{
+    Layout = "~/Views/Shared/_Layout3Doctor.cshtml"; // Replace with the actual path to your layout
+}
+@using Newtonsoft.Json
+
+@{
+    var patientNuber = TempData["PatientID2"] as string;
+    string PID = JsonConvert.DeserializeObject<string>(patientNuber);
+}
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <h4 class="center">List of Medical Visits</h4>
+        <table class="table">
+            <thead>
+                <tr class="text-center">
+                    <th>@Html.DisplayNameFor(model => model.MId)</th>
+                    <th>@Html.DisplayNameFor(model => model.Date)</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.MId)
+                        </td>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+
+                        <td class="align-middle">
+                            <a class="btn btn-outline-primary" asp-controller="MedicalVisit" asp-action="Details" asp-route-id="@item.MId"><i class="bi bi-pencil-square"></i>Details </a> |
+                            <a class="btn btn-outline-info" asp-action="AddLabReport" asp-route-id="@item.MId"><i class="bi bi-eye"></i>Add Lab Report </a> |
+                            <a class="btn btn-outline-primary" asp-action="ViewLabReports" asp-route-id="@item.MId"><i class="bi bi-pencil-square"></i>View Lab Reports </a>
+                        </td>
+
+
+                    </tr>
+                }
+            </tbody>
+
+
+
+        </table>
+        <div class="center">
+          
+            <a class="btn btn-outline-info" asp-action="PMedicalVisitOtherD" asp-controller="Doctor" asp-route-id="@PID"><i class="bi bi-eye"></i>View all Patients</a>
+        </div>
+    </div>
+</div>

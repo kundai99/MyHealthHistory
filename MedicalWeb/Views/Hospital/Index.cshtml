@@ -1,0 +1,54 @@
+﻿@model Account
+
+@{
+    Layout = "~/Views/Shared/_Layout3Admin.cshtml"; // Replace with the actual path to your layout
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Back</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .center {
+            text-align: center;
+        }
+
+        .btn-big {
+            font-size: 24px;
+            padding: 20px 40px;
+        }
+
+        .modal-dialog {
+            max-width: 500px;
+        }
+
+        .modal-content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="center">
+            <h1>Welcome Back</h1>
+        </div>
+        <div class="center">
+
+            <a class="btn-outline-secondary" asp-action="Create" asp-controller="Hospital">
+                <button type="button" class="btn btn-primary btn-big" asp-action="Create" asp-controller="Hospital">
+                    Add Hospitals
+                </button>
+            </a>
+
+            <a class="btn-outline-secondary" asp-action="ViewHospitals" asp-controller="Hospital">
+                <button type="button" class="btn btn-primary btn-big" asp-action="ViewHospitals" asp-controller="Hospital">
+                    View Hospital
+                </button>
+            </a>
+        </div>
+
+    </div>
+</body>
+</html>
+

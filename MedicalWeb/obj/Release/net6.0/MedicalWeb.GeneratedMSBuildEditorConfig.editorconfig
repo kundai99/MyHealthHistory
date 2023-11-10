@@ -1,0 +1,221 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MedicalWeb
+build_property.RootNamespace = MedicalWeb
+build_property.ProjectDir = C:\Users\Kunda\OneDrive\Documents\Scul\Wazba\MedicalWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Kunda\OneDrive\Documents\Scul\Wazba\MedicalWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Account/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Account/DocDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEb2NEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Account/PDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Clinic/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Clinic/DocCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXERvY0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Clinic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Clinic/ViewDocs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXFZpZXdEb2NzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Clinic/ViewHospitals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpbmljXFZpZXdIb3NwaXRhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/AddLabReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFkZExhYlJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/PMedicalVisit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBNZWRpY2FsVmlzaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/PMedicalVisit2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBNZWRpY2FsVmlzaXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/PMedicalVisitOtherD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBNZWRpY2FsVmlzaXRPdGhlckQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/ViewLabReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFZpZXdMYWJSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Doctor/ViewPatients.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFZpZXdQYXRpZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Hospital/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Hospital/DocCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxcRG9jQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Hospital/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Hospital/ViewDocs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxcVmlld0RvY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Hospital/ViewHospitals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9zcGl0YWxcVmlld0hvc3BpdGFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/MedicalVisit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFZpc2l0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/MedicalVisit/Create2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFZpc2l0XENyZWF0ZTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/MedicalVisit/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFZpc2l0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/MedicalVisit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbFZpc2l0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Patient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Patient/PatientLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50TG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Patient/PatientMedicalVisits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50TWVkaWNhbFZpc2l0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Patient/PatientPrescriptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50UHJlc2NyaXB0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/PrivatePractice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmF0ZVByYWN0aWNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/PrivatePractice/DocCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmF0ZVByYWN0aWNlXERvY0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/PrivatePractice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmF0ZVByYWN0aWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/PrivatePractice/ViewDocs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmF0ZVByYWN0aWNlXFZpZXdEb2NzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/PrivatePractice/ViewHospitals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJpdmF0ZVByYWN0aWNlXFZpZXdIb3NwaXRhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yeqicjg2n7
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-1c2gjrtsqu
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/_Layout3Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQzQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qkaz48iz6y
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/_Layout3AdminClinic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQzQWRtaW5DbGluaWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gxxdmot1ko
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/_Layout3AdminPrivste.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQzQWRtaW5Qcml2c3RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-6gqb58gfil
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/_Layout3Doctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQzRG9jdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-kel728hlf9
+
+[C:/Users/Kunda/OneDrive/Documents/Scul/Wazba/MedicalWeb/Views/Shared/_Layout3Patient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQzUGF0aWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-ms69zgc0fh

@@ -1,0 +1,45 @@
+﻿@model Patientrecord
+@{
+    ViewData["Title"] = "Medical Visit Details";
+   
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout3Patient.cshtml"; // Replace with the actual path to your layout
+}
+
+
+
+<div>
+    <h1>Patient Details</h1>
+    <table>
+        <tr>
+            <td><strong>First Name:</strong></td>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <td><strong>Last Name:</strong></td>
+            <td>@Model.Surname</td>
+        </tr>
+
+        <tr>
+            <td><strong>ID Number:</strong></td>
+            <td>@Model.Idnumber</td>
+        </tr>
+
+       
+
+        
+
+    </table>
+</div>
+
+
+
+<div>
+    <a class="btn btn-outline-primary" asp-action="PatientPrescriptions" asp-controller="Patient"><i class="bi bi-pencil-square"></i>OK </a>
+</div>
+
+
+
+

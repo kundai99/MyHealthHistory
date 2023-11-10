@@ -1,0 +1,101 @@
+﻿@model Account
+
+@{
+    Layout = "~/Views/Shared/_Layout3Doctor.cshtml"; // Replace with the actual path to your layout
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Back</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .center {
+            text-align: center;
+        }
+
+        .btn-big {
+            font-size: 24px;
+            padding: 20px 40px;
+        }
+
+        .modal-dialog {
+            max-width: 500px;
+        }
+
+        .modal-content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="center">
+            <h1>Welcome Back</h1>
+        </div>
+        <div class="center">
+
+            <a class="btn-outline-secondary" asp-action="ViewPatients" asp-controller="Doctor">
+                <button type="button" class="btn btn-primary btn-big" asp-action="ViewPatients" asp-controller="Doctor">
+                    View Patients
+                </button>
+            </a>
+        </div>
+        <div class="center">
+
+            <a class="btn-outline-secondary" asp-action="Create" asp-controller="MedicalVisit">
+                <button type="button" class="btn btn-primary btn-big" asp-action="Create" asp-controller="MedicalVisit" a>
+                    Log Patient Visit
+                </button>
+            </a>
+        </div>
+        <div class="center">
+
+            
+                <button type="button" class="btn btn-primary btn-big" onclick="openPopup()">
+                    Search for Patient
+                </button>
+          
+        </div>
+    </div>
+    <div class="modal fade" id="PUFormModal" aria-hidden="true" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="PUFormModalLabel">Please Provide Further Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closePopup()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <form asp-controller="Doctor" asp-action="PMedicalVisitOtherD" method="post">
+                    <div class="form-group">
+                        <label>Enter Patient ID</label>
+                        <input id="id" name="id" class="form-control" type="text" />
+                    </div>
+
+                    <div class="center">
+                        <button type="submit" class="btn btn-primary">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openPopup() {
+            $('#PUFormModal').modal('show');
+        }
+    </script>
+
+    <script>
+        function closePopup() {
+            $('#PUFormModal').modal('hide');
+        }
+    </script>
+</body>
+
+
+    
+</html>

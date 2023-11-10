@@ -1,0 +1,100 @@
+﻿@model IEnumerable<LabResult>
+
+@{
+    ViewData["Title"] = "List of items";
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout3Doctor.cshtml"; // Replace with the actual path to your layout
+}
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+
+        <table class="table">
+            <thead>
+                <tr class="text-center">
+                    <th>@Html.DisplayNameFor(model => model.DocumentName)</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="align-middle">
+                            @Html.DisplayFor(modelItem => item.DocumentName)
+                        </td>
+                        <td class="align-middle" href="~\LabReulst\@item.DocumentPath">
+                            <a class="btn btn-outline-primary" data-pdf-src="~\LabReulst\@item.DocumentPath" href="@Url.Content("~/LabReulst/" + @item.DocumentPath)"><i class="bi bi-pencil-square"></i>Open</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+            
+        </table>
+
+
+        <!-- Modal -->
+        
+        <div class="modal fade" id="pdfViewerModal" tabindex="-1" role="dialog" aria-labelledby="pdfViewerModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="pdfViewerModalLabel">PDF Viewer</h5>
+                        <button type="button" class="close" aria-label="Close" onclick="closePdfViewer()">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="pdf-container">
+                            <embed id="pdf-embed" src="" type="application/pdf" width="100%" height="500px">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- Button to close the PDF viewer -->
+                        <button type="button" class="btn btn-secondary" onclick="closePdfViewer()">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="center">
+        <a class="btn btn-outline-info" asp-action="ViewPatients" asp-controller="Doctor"><i class="bi bi-eye"></i>View all Patients</a>
+    </div>
+</div>
+
+
+<script>
+    function openPdfViewer(button) {
+        // Get the PDF embed element
+        var pdfEmbed = document.getElementById("pdf-embed");
+
+        // Get the PDF source URL from the data attribute of the clicked button
+        var pdfSrc = button.getAttribute("data-pdf-src");
+
+        // Set the source of the PDF embed element
+        pdfEmbed.setAttribute("src", pdfSrc);
+
+        // Show the PDF container
+        document.getElementById("pdf-container").style.display = "block";
+
+        // Show the modal using jQuery
+        $('#pdfViewerModal').modal('show');
+    }
+
+    function closePdfViewer() {
+        // Hide the PDF container
+        document.getElementById("pdf-container").style.display = "none";
+
+        // Clear the PDF source
+        var pdfEmbed = document.getElementById("pdf-embed");
+        pdfEmbed.setAttribute("src", "");
+
+        // Close the modal using jQuery
+        $('#pdfViewerModal').modal('hide');
+    }
+</script>
+

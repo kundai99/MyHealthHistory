@@ -1,0 +1,50 @@
+﻿@model Account
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Back</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .center {
+            text-align: center;
+        }
+
+        .btn-big {
+            font-size: 24px;
+            padding: 20px 40px;
+        }
+
+        .modal-dialog {
+            max-width: 500px;
+        }
+
+        .modal-content {
+            padding: 20px;
+        }
+    </style>
+</head>
+ <body>
+    <div class="container mt-5">
+        <div class="center">
+            <h1>Welcome Back</h1>
+        </div>
+        <div class="center">
+           
+            <a class="btn-outline-secondary" asp-action="Create">
+                <button type="button" class="btn btn-primary btn-big" asp-action="Create">
+                    Register
+                </button>
+            </a>
+        </div>
+        <div class="center">
+           
+            <a class="btn-outline-secondary" asp-action="Login">
+                <button type="button" class="btn btn-primary btn-big" asp-action="Login" a>
+                    Login
+                </button>
+            </a>
+        </div>
+    </div>
+ </body>
+</html>

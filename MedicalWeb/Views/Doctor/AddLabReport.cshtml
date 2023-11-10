@@ -1,0 +1,43 @@
+﻿@model UploadingFile
+
+@{
+    ViewData["Title"] = "Add new Lab results";
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout3Doctor.cshtml"; // Replace with the actual path to your layout
+}
+
+
+<div class="row text">
+    <div class="col-md-8 offset-2">
+        <p>
+            <h1>Add a New item</h1>
+        </p>
+        <div class="row">
+            <div class="col-md-8 offset-2">
+                <form asp-action="AddLabReport" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-group">
+                        <label asp-for="DocumentName" class="control-label"></label>
+                        <input asp-for="DocumentName" class="form-control" />
+                        <span asp-validation-for="DocumentName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+
+                        <label > Lab results</label>
+                        <input type="file" name="file" />
+                    </div>
+
+
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-outline-success float-right" />
+                        <a class="btn btn-outline-secondary" asp-action="ViewPatients" asp-controller="Doctor" >Cancel </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

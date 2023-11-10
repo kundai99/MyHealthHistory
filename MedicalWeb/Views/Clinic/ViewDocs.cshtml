@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Doctorinfo>
+
+@{
+    ViewData["Title"] = "List of other doctors patient has seen ";
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout3Admin.cshtml"; // Replace with the actual path to your layout
+}
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+
+        @if (Model.Count() ==0)
+        {
+            <div>
+                <h2 class="center">Clinic has  No Doctors In System</h2>
+            </div>
+        }
+        else
+        {
+            <h4 class="center">List of Doctors  at clinic </h4>
+            <table class="table">
+                <thead>
+                    <tr class="text-center">
+                        <th>@Html.DisplayNameFor(model => model.FName)</th>
+                        <th>@Html.DisplayNameFor(model => model.SName)</th>
+                        <th>@Html.DisplayNameFor(model => model.ProfessionalNum)</th>
+                        <th>@Html.DisplayNameFor(model => model.Speciality)</th>
+                       
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+
+                            <td class="align-middle">
+                                @Html.DisplayFor(modelItem => item.FName)
+                            </td>
+                            <td class="align-middle">
+                                @Html.DisplayFor(modelItem => item.SName)
+                            </td>
+                            <td class="align-middle">
+                                @Html.DisplayFor(modelItem => item.ProfessionalNum)
+                            </td>
+                            <td class="align-middle">
+                                @Html.DisplayFor(modelItem => item.Speciality)
+                            </td>
+                           
+
+                            <td class="align-middle">
+
+                                <a class="btn btn-outline-info"><i class="bi bi-eye"></i>Remove Doctor </a> 
+                              
+
+                            </td>
+
+
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        }
+
+        <a class="btn btn-outline-info" asp-action="ViewHospitals" asp-controller="Clinic"><i class="bi bi-eye"></i>Back to Clinics </a>
+    </div>
+</div>
